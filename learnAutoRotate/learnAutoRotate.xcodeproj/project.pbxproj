@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BFCA6CE1D3CD5720085F806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA6CD1D3CD5720085F806 /* main.m */; };
+		2BFCA6D11D3CD5720085F806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA6D01D3CD5720085F806 /* AppDelegate.m */; };
+		2BFCA6D71D3CD5720085F806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFCA6D51D3CD5720085F806 /* Main.storyboard */; };
+		2BFCA6D91D3CD5720085F806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFCA6D81D3CD5720085F806 /* Assets.xcassets */; };
+		2BFCA6DC1D3CD5720085F806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFCA6DA1D3CD5720085F806 /* LaunchScreen.storyboard */; };
+		2BFCA6E71D3CD5720085F806 /* learnAutoRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA6E61D3CD5720085F806 /* learnAutoRotateTests.m */; };
+		2BFCA6F21D3CD5720085F806 /* learnAutoRotateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA6F11D3CD5720085F806 /* learnAutoRotateUITests.m */; };
+		2BFCA7011D3CD5E20085F806 /* AutoRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA7001D3CD5E20085F806 /* AutoRotateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BFCA6E31D3CD5720085F806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BFCA6C11D3CD5720085F806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BFCA6C81D3CD5720085F806;
+			remoteInfo = learnAutoRotate;
+		};
+		2BFCA6EE1D3CD5720085F806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BFCA6C11D3CD5720085F806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BFCA6C81D3CD5720085F806;
+			remoteInfo = learnAutoRotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BFCA6C91D3CD5720085F806 /* learnAutoRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnAutoRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFCA6CD1D3CD5720085F806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BFCA6CF1D3CD5720085F806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BFCA6D01D3CD5720085F806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BFCA6D61D3CD5720085F806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BFCA6D81D3CD5720085F806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BFCA6DB1D3CD5720085F806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BFCA6DD1D3CD5720085F806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFCA6E21D3CD5720085F806 /* learnAutoRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnAutoRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFCA6E61D3CD5720085F806 /* learnAutoRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnAutoRotateTests.m; sourceTree = "<group>"; };
+		2BFCA6E81D3CD5720085F806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFCA6ED1D3CD5720085F806 /* learnAutoRotateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnAutoRotateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFCA6F11D3CD5720085F806 /* learnAutoRotateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnAutoRotateUITests.m; sourceTree = "<group>"; };
+		2BFCA6F31D3CD5720085F806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFCA6FF1D3CD5E20085F806 /* AutoRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRotateViewController.h; sourceTree = "<group>"; };
+		2BFCA7001D3CD5E20085F806 /* AutoRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoRotateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BFCA6C61D3CD5720085F806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFCA6DF1D3CD5720085F806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFCA6EA1D3CD5720085F806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BFCA6C01D3CD5720085F806 = {
+			isa = PBXGroup;
+			children = (
+				2BFCA6CB1D3CD5720085F806 /* learnAutoRotate */,
+				2BFCA6E51D3CD5720085F806 /* learnAutoRotateTests */,
+				2BFCA6F01D3CD5720085F806 /* learnAutoRotateUITests */,
+				2BFCA6CA1D3CD5720085F806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BFCA6CA1D3CD5720085F806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCA6C91D3CD5720085F806 /* learnAutoRotate.app */,
+				2BFCA6E21D3CD5720085F806 /* learnAutoRotateTests.xctest */,
+				2BFCA6ED1D3CD5720085F806 /* learnAutoRotateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BFCA6CB1D3CD5720085F806 /* learnAutoRotate */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCA6FF1D3CD5E20085F806 /* AutoRotateViewController.h */,
+				2BFCA7001D3CD5E20085F806 /* AutoRotateViewController.m */,
+				2BFCA6D51D3CD5720085F806 /* Main.storyboard */,
+				2BFCA6D81D3CD5720085F806 /* Assets.xcassets */,
+				2BFCA6CC1D3CD5720085F806 /* Supporting Files */,
+			);
+			path = learnAutoRotate;
+			sourceTree = "<group>";
+		};
+		2BFCA6CC1D3CD5720085F806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCA6DA1D3CD5720085F806 /* LaunchScreen.storyboard */,
+				2BFCA6CF1D3CD5720085F806 /* AppDelegate.h */,
+				2BFCA6D01D3CD5720085F806 /* AppDelegate.m */,
+				2BFCA6DD1D3CD5720085F806 /* Info.plist */,
+				2BFCA6CD1D3CD5720085F806 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BFCA6E51D3CD5720085F806 /* learnAutoRotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCA6E61D3CD5720085F806 /* learnAutoRotateTests.m */,
+				2BFCA6E81D3CD5720085F806 /* Info.plist */,
+			);
+			path = learnAutoRotateTests;
+			sourceTree = "<group>";
+		};
+		2BFCA6F01D3CD5720085F806 /* learnAutoRotateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCA6F11D3CD5720085F806 /* learnAutoRotateUITests.m */,
+				2BFCA6F31D3CD5720085F806 /* Info.plist */,
+			);
+			path = learnAutoRotateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BFCA6C81D3CD5720085F806 /* learnAutoRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFCA6F61D3CD5720085F806 /* Build configuration list for PBXNativeTarget "learnAutoRotate" */;
+			buildPhases = (
+				2BFCA6C51D3CD5720085F806 /* Sources */,
+				2BFCA6C61D3CD5720085F806 /* Frameworks */,
+				2BFCA6C71D3CD5720085F806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learnAutoRotate;
+			productName = learnAutoRotate;
+			productReference = 2BFCA6C91D3CD5720085F806 /* learnAutoRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BFCA6E11D3CD5720085F806 /* learnAutoRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFCA6F91D3CD5720085F806 /* Build configuration list for PBXNativeTarget "learnAutoRotateTests" */;
+			buildPhases = (
+				2BFCA6DE1D3CD5720085F806 /* Sources */,
+				2BFCA6DF1D3CD5720085F806 /* Frameworks */,
+				2BFCA6E01D3CD5720085F806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BFCA6E41D3CD5720085F806 /* PBXTargetDependency */,
+			);
+			name = learnAutoRotateTests;
+			productName = learnAutoRotateTests;
+			productReference = 2BFCA6E21D3CD5720085F806 /* learnAutoRotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BFCA6EC1D3CD5720085F806 /* learnAutoRotateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFCA6FC1D3CD5720085F806 /* Build configuration list for PBXNativeTarget "learnAutoRotateUITests" */;
+			buildPhases = (
+				2BFCA6E91D3CD5720085F806 /* Sources */,
+				2BFCA6EA1D3CD5720085F806 /* Frameworks */,
+				2BFCA6EB1D3CD5720085F806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BFCA6EF1D3CD5720085F806 /* PBXTargetDependency */,
+			);
+			name = learnAutoRotateUITests;
+			productName = learnAutoRotateUITests;
+			productReference = 2BFCA6ED1D3CD5720085F806 /* learnAutoRotateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BFCA6C11D3CD5720085F806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tao;
+				TargetAttributes = {
+					2BFCA6C81D3CD5720085F806 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2BFCA6E11D3CD5720085F806 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2BFCA6C81D3CD5720085F806;
+					};
+					2BFCA6EC1D3CD5720085F806 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2BFCA6C81D3CD5720085F806;
+					};
+				};
+			};
+			buildConfigurationList = 2BFCA6C41D3CD5720085F806 /* Build configuration list for PBXProject "learnAutoRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BFCA6C01D3CD5720085F806;
+			productRefGroup = 2BFCA6CA1D3CD5720085F806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BFCA6C81D3CD5720085F806 /* learnAutoRotate */,
+				2BFCA6E11D3CD5720085F806 /* learnAutoRotateTests */,
+				2BFCA6EC1D3CD5720085F806 /* learnAutoRotateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BFCA6C71D3CD5720085F806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFCA6DC1D3CD5720085F806 /* LaunchScreen.storyboard in Resources */,
+				2BFCA6D91D3CD5720085F806 /* Assets.xcassets in Resources */,
+				2BFCA6D71D3CD5720085F806 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFCA6E01D3CD5720085F806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFCA6EB1D3CD5720085F806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BFCA6C51D3CD5720085F806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFCA6D11D3CD5720085F806 /* AppDelegate.m in Sources */,
+				2BFCA6CE1D3CD5720085F806 /* main.m in Sources */,
+				2BFCA7011D3CD5E20085F806 /* AutoRotateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFCA6DE1D3CD5720085F806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFCA6E71D3CD5720085F806 /* learnAutoRotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFCA6E91D3CD5720085F806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFCA6F21D3CD5720085F806 /* learnAutoRotateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BFCA6E41D3CD5720085F806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BFCA6C81D3CD5720085F806 /* learnAutoRotate */;
+			targetProxy = 2BFCA6E31D3CD5720085F806 /* PBXContainerItemProxy */;
+		};
+		2BFCA6EF1D3CD5720085F806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BFCA6C81D3CD5720085F806 /* learnAutoRotate */;
+			targetProxy = 2BFCA6EE1D3CD5720085F806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BFCA6D51D3CD5720085F806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFCA6D61D3CD5720085F806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BFCA6DA1D3CD5720085F806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFCA6DB1D3CD5720085F806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BFCA6F41D3CD5720085F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BFCA6F51D3CD5720085F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BFCA6F71D3CD5720085F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnAutoRotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnAutoRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BFCA6F81D3CD5720085F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnAutoRotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnAutoRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BFCA6FA1D3CD5720085F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnAutoRotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnAutoRotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnAutoRotate.app/learnAutoRotate";
+			};
+			name = Debug;
+		};
+		2BFCA6FB1D3CD5720085F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnAutoRotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnAutoRotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnAutoRotate.app/learnAutoRotate";
+			};
+			name = Release;
+		};
+		2BFCA6FD1D3CD5720085F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnAutoRotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnAutoRotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnAutoRotate;
+			};
+			name = Debug;
+		};
+		2BFCA6FE1D3CD5720085F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnAutoRotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnAutoRotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnAutoRotate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BFCA6C41D3CD5720085F806 /* Build configuration list for PBXProject "learnAutoRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFCA6F41D3CD5720085F806 /* Debug */,
+				2BFCA6F51D3CD5720085F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFCA6F61D3CD5720085F806 /* Build configuration list for PBXNativeTarget "learnAutoRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFCA6F71D3CD5720085F806 /* Debug */,
+				2BFCA6F81D3CD5720085F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFCA6F91D3CD5720085F806 /* Build configuration list for PBXNativeTarget "learnAutoRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFCA6FA1D3CD5720085F806 /* Debug */,
+				2BFCA6FB1D3CD5720085F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFCA6FC1D3CD5720085F806 /* Build configuration list for PBXNativeTarget "learnAutoRotateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFCA6FD1D3CD5720085F806 /* Debug */,
+				2BFCA6FE1D3CD5720085F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BFCA6C11D3CD5720085F806 /* Project object */;
+}
