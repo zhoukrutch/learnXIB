@@ -28,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    imageArr = [[NSArray alloc] initWithObjects:@"ic", @"p2", @"p3", nil ];
+    imageArr = [[NSArray alloc] initWithObjects:@"ic", @"ia", @"ib", nil ];
     blandArr = [[NSArray alloc] initWithObjects:@"七匹狼", @"森马", @"美邦", @"nike", @"阿迪", nil ];;
     clotherList = [NSMutableArray arrayWithCapacity:30];
     for (NSInteger i = 0; i < 4; i++) {
@@ -38,11 +38,6 @@
         clother.clotherPrice = [NSString stringWithFormat:@"促销价：%i",arc4random_uniform(1000)];
         [clotherList addObject:clother];
     }
-    UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ia"]];
-    [image setContentMode:UIViewContentModeScaleAspectFit];
-    [image setFrame:CGRectMake(10, 10, 50, 50)];
-    [self.view addSubview:image];
-    [self.view bringSubviewToFront:image];
     self.clotherListTableView.delegate = self;
     self.clotherListTableView.dataSource = self;
     //[self.clotherListTableView registerNib:[UINib nibWithNibName:@"ClotherTableViewCell" bundle:nil] forCellReuseIdentifier:@"ClotherTableViewCell"];

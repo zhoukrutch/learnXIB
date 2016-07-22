@@ -2,16 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "i_000SdFAr.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "i_000SdPkt.png",
+      "filename" : "i_000SdFAr-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "i_000SdPkt-1.png",
+      "filename" : "i_000SdFAr-2.png",
       "scale" : "3x"
     }
   ],

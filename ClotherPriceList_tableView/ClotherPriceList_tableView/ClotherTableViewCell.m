@@ -22,9 +22,7 @@
 
 - (void)setImageView:(NSString *)imageName{
     if (imageName) {
-        //UIImage *image = [UIImage imageNamed:@"p3"];
-        //[_clotherImageView setImage:image];
-         //[UIImage imageNamed:[NSString stringWithFormat:@"%@", imageName]]];
+        [_clotherImageView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@", imageName]]];
     }
 }
 
