@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9267651D41BD2100EAE849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9267641D41BD2100EAE849 /* main.m */; };
+		2B9267681D41BD2100EAE849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9267671D41BD2100EAE849 /* AppDelegate.m */; };
+		2B92676E1D41BD2100EAE849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B92676C1D41BD2100EAE849 /* Main.storyboard */; };
+		2B9267701D41BD2100EAE849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B92676F1D41BD2100EAE849 /* Assets.xcassets */; };
+		2B9267731D41BD2100EAE849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9267711D41BD2100EAE849 /* LaunchScreen.storyboard */; };
+		2B92677C1D41BD6C00EAE849 /* ClotherPriceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B92677B1D41BD6C00EAE849 /* ClotherPriceListViewController.m */; };
+		2B92677F1D41C9F100EAE849 /* ClotherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B92677E1D41C9F100EAE849 /* ClotherTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B9267601D41BD2100EAE849 /* ClotherPriceList_tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClotherPriceList_tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9267641D41BD2100EAE849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B9267661D41BD2100EAE849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B9267671D41BD2100EAE849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B92676D1D41BD2100EAE849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B92676F1D41BD2100EAE849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9267721D41BD2100EAE849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B9267741D41BD2100EAE849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B92677A1D41BD6C00EAE849 /* ClotherPriceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClotherPriceListViewController.h; sourceTree = "<group>"; };
+		2B92677B1D41BD6C00EAE849 /* ClotherPriceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClotherPriceListViewController.m; sourceTree = "<group>"; };
+		2B92677D1D41C9F100EAE849 /* ClotherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClotherTableViewCell.h; sourceTree = "<group>"; };
+		2B92677E1D41C9F100EAE849 /* ClotherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClotherTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B92675D1D41BD2100EAE849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9267571D41BD2100EAE849 = {
+			isa = PBXGroup;
+			children = (
+				2B9267621D41BD2100EAE849 /* ClotherPriceList_tableView */,
+				2B9267611D41BD2100EAE849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9267611D41BD2100EAE849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9267601D41BD2100EAE849 /* ClotherPriceList_tableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9267621D41BD2100EAE849 /* ClotherPriceList_tableView */ = {
+			isa = PBXGroup;
+			children = (
+				2B92677A1D41BD6C00EAE849 /* ClotherPriceListViewController.h */,
+				2B92677B1D41BD6C00EAE849 /* ClotherPriceListViewController.m */,
+				2B92677D1D41C9F100EAE849 /* ClotherTableViewCell.h */,
+				2B92677E1D41C9F100EAE849 /* ClotherTableViewCell.m */,
+				2B92676C1D41BD2100EAE849 /* Main.storyboard */,
+				2B92676F1D41BD2100EAE849 /* Assets.xcassets */,
+				2B9267631D41BD2100EAE849 /* Supporting Files */,
+			);
+			path = ClotherPriceList_tableView;
+			sourceTree = "<group>";
+		};
+		2B9267631D41BD2100EAE849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9267661D41BD2100EAE849 /* AppDelegate.h */,
+				2B9267671D41BD2100EAE849 /* AppDelegate.m */,
+				2B9267711D41BD2100EAE849 /* LaunchScreen.storyboard */,
+				2B9267741D41BD2100EAE849 /* Info.plist */,
+				2B9267641D41BD2100EAE849 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B92675F1D41BD2100EAE849 /* ClotherPriceList_tableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9267771D41BD2100EAE849 /* Build configuration list for PBXNativeTarget "ClotherPriceList_tableView" */;
+			buildPhases = (
+				2B92675C1D41BD2100EAE849 /* Sources */,
+				2B92675D1D41BD2100EAE849 /* Frameworks */,
+				2B92675E1D41BD2100EAE849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClotherPriceList_tableView;
+			productName = ClotherPriceList_tableView;
+			productReference = 2B9267601D41BD2100EAE849 /* ClotherPriceList_tableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9267581D41BD2100EAE849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tao;
+				TargetAttributes = {
+					2B92675F1D41BD2100EAE849 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B92675B1D41BD2100EAE849 /* Build configuration list for PBXProject "ClotherPriceList_tableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B9267571D41BD2100EAE849;
+			productRefGroup = 2B9267611D41BD2100EAE849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B92675F1D41BD2100EAE849 /* ClotherPriceList_tableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B92675E1D41BD2100EAE849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9267731D41BD2100EAE849 /* LaunchScreen.storyboard in Resources */,
+				2B9267701D41BD2100EAE849 /* Assets.xcassets in Resources */,
+				2B92676E1D41BD2100EAE849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B92675C1D41BD2100EAE849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B92677C1D41BD6C00EAE849 /* ClotherPriceListViewController.m in Sources */,
+				2B92677F1D41C9F100EAE849 /* ClotherTableViewCell.m in Sources */,
+				2B9267681D41BD2100EAE849 /* AppDelegate.m in Sources */,
+				2B9267651D41BD2100EAE849 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B92676C1D41BD2100EAE849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B92676D1D41BD2100EAE849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B9267711D41BD2100EAE849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9267721D41BD2100EAE849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B9267751D41BD2100EAE849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B9267761D41BD2100EAE849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9267781D41BD2100EAE849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClotherPriceList_tableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidian.ClotherPriceList-tableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B9267791D41BD2100EAE849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClotherPriceList_tableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidian.ClotherPriceList-tableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B92675B1D41BD2100EAE849 /* Build configuration list for PBXProject "ClotherPriceList_tableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9267751D41BD2100EAE849 /* Debug */,
+				2B9267761D41BD2100EAE849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9267771D41BD2100EAE849 /* Build configuration list for PBXNativeTarget "ClotherPriceList_tableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9267781D41BD2100EAE849 /* Debug */,
+				2B9267791D41BD2100EAE849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B9267581D41BD2100EAE849 /* Project object */;
+}
