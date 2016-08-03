@@ -9,7 +9,7 @@
 #import "SecondViewController.h"
 
 @interface SecondViewController ()
-
+@property (strong, nonatomic) UIPercentDrivenInteractiveTransition *perecentDrivenInteractive;
 @end
 
 @implementation SecondViewController
@@ -18,16 +18,12 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.nextViewButton setTitle:@"Go to Second View" forState:UIControlStateNormal];
-    UIGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(popoverController:)];
-    [self.view addGestureRecognizer:panGesture];
+    
     //self.title = @"Second View"; //设置navigation title
 
     // Do any additional setup after loading the view.
 }
 
-- (void)popoverController:(UIPanGestureRecognizer*)gestureRecognizer{
-    [self.navigationController popViewControllerAnimated:YES];
-}
 
 
 - (void)didReceiveMemoryWarning {
