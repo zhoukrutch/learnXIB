@@ -30,6 +30,7 @@
     //self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:nil];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:nil];
     self.editing = YES;
+
     [self.go2NextViewButton addTarget:self action:@selector(showSegueAction:)forControlEvents:UIControlEventTouchUpInside];
     
     UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"im"]];
