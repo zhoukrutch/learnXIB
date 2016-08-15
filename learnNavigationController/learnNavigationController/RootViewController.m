@@ -26,6 +26,7 @@
     [self.navigationController.navigationBar setTintColor:[UIColor blueColor]];  //navigationItem color
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:nil];
     //self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:nil];
+    //test for git commit
     [self.go2NextViewButton addTarget:self action:@selector(showSegueAction:)forControlEvents:UIControlEventTouchUpInside];
     
 }
