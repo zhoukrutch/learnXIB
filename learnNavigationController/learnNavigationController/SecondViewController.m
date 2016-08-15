@@ -7,8 +7,10 @@
 //
 
 #import "SecondViewController.h"
+#import "RootViewController.h"
+#import "NavgationPopAnimator.h"
 
-@interface SecondViewController ()
+@interface SecondViewController ()<UIViewControllerTransitioningDelegate>
 @property (strong, nonatomic) UIPercentDrivenInteractiveTransition *perecentDrivenInteractive;
 @end
 
@@ -18,12 +20,27 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.nextViewButton setTitle:@"Go to Second View" forState:UIControlStateNormal];
-    
     //self.title = @"Second View"; //设置navigation title
 
     // Do any additional setup after loading the view.
 }
 
+
+- (IBAction)goBackByUnwindSegue:(UIButton *)sender {
+    //[self.presentingViewController.presentedViewController performSegueWithIdentifier:@"showUnwind" sender:sender];
+    [self performSegueWithIdentifier:@"showRoot" sender:sender];
+}
+- (IBAction)dismissVCAction:(UIButton *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)setNewVCsAction:(id)sender {
+    RootViewController *root = [self.storyboard instantiateViewControllerWithIdentifier:@"RootViewController"];
+    //SecondViewController *second = [[SecondViewController alloc] init];
+    [self.navigationController setViewControllers:@[root,self] animated:YES];
+    [self.navigationController popToRootViewControllerAnimated:YES];
+
+}
 
 
 - (void)didReceiveMemoryWarning {
@@ -38,6 +55,24 @@
         [_nextViewButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     }
     return _nextViewButton;
+}
+
+//- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented
+//                                                                  presentingController:(UIViewController *)presenting
+//                                                                      sourceController:(UIViewController *)source
+//{
+//    NavgationPopAnimator *popAnimator = [[NavgationPopAnimator alloc] init];
+//    return popAnimator;
+//}
+
+
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"showUnwind"]) {
+        
+    }
 }
 
 /*
