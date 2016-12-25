@@ -32,29 +32,51 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nrm-KK-odA">
-                                <rect key="frame" x="20" y="46" width="239" height="216"/>
-                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-u3-b40">
+                                <rect key="frame" x="71" y="179" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="5Bf-Fq-7aQ" kind="popoverPresentation" identifier="pop" popoverAnchorView="JLd-u3-b40" id="9q1-Vf-pVR">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QdG-vR-0Fq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Jr4-ae-ofk"/>
-                            <constraint firstItem="Nrm-KK-odA" firstAttribute="leading" secondItem="QdG-vR-0Fq" secondAttribute="trailing" constant="-39" id="MHN-2c-Wdq"/>
-                            <constraint firstItem="Nrm-KK-odA" firstAttribute="trailing" secondItem="ntI-3I-deQ" secondAttribute="trailing" id="S1D-UF-Z0u"/>
                             <constraint firstItem="ntI-3I-deQ" firstAttribute="centerY" secondItem="QdG-vR-0Fq" secondAttribute="centerY" id="SaZ-2q-BiF"/>
                             <constraint firstAttribute="leadingMargin" secondItem="QdG-vR-0Fq" secondAttribute="leading" id="Ube-zb-4zr"/>
                             <constraint firstItem="ntI-3I-deQ" firstAttribute="leading" secondItem="QdG-vR-0Fq" secondAttribute="trailing" id="dVL-ES-Mcy"/>
-                            <constraint firstItem="Nrm-KK-odA" firstAttribute="top" secondItem="ntI-3I-deQ" secondAttribute="bottom" id="uOt-8C-I0v"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="pickView" destination="Nrm-KK-odA" id="8cZ-jr-db1"/>
                         <outlet property="textField" destination="ntI-3I-deQ" id="3Ji-Am-do1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="576" y="479"/>
+            <point key="canvasLocation" x="530" y="396"/>
+        </scene>
+        <!--Pick View Controller-->
+        <scene sceneID="SRI-lo-Opz">
+            <objects>
+                <viewController id="5Bf-Fq-7aQ" customClass="PickViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ruz-lZ-taJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="5So-yp-7ca"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IdA-Jm-RJK">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="200" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qnl-LG-FKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021" y="408"/>
         </scene>
     </scenes>
 </document>

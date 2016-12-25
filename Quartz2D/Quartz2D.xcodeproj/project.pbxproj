@@ -13,6 +13,7 @@
 		2BD6968B1D6AD81B00A93251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD696891D6AD81B00A93251 /* Main.storyboard */; };
 		2BD6968D1D6AD81B00A93251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD6968C1D6AD81B00A93251 /* Assets.xcassets */; };
 		2BD696901D6AD81B00A93251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD6968E1D6AD81B00A93251 /* LaunchScreen.storyboard */; };
+		2BD696991D6AD87A00A93251 /* MyViewByDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD696981D6AD87A00A93251 /* MyViewByDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2BD6968C1D6AD81B00A93251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD6968F1D6AD81B00A93251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BD696911D6AD81B00A93251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD696971D6AD87A00A93251 /* MyViewByDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewByDraw.h; sourceTree = "<group>"; };
+		2BD696981D6AD87A00A93251 /* MyViewByDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewByDraw.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2BD6968E1D6AD81B00A93251 /* LaunchScreen.storyboard */,
 				2BD696911D6AD81B00A93251 /* Info.plist */,
 				2BD696801D6AD81B00A93251 /* Supporting Files */,
+				2BD696971D6AD87A00A93251 /* MyViewByDraw.h */,
+				2BD696981D6AD87A00A93251 /* MyViewByDraw.m */,
 			);
 			path = Quartz2D;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				2BD696881D6AD81B00A93251 /* ViewController.m in Sources */,
 				2BD696851D6AD81B00A93251 /* AppDelegate.m in Sources */,
 				2BD696821D6AD81B00A93251 /* main.m in Sources */,
+				2BD696991D6AD87A00A93251 /* MyViewByDraw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

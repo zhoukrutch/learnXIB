@@ -16,6 +16,7 @@
 		2BECB7D51D47638A00338C40 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECB7D41D47638A00338C40 /* RootViewController.m */; };
 		2BECB7DC1D4769D800338C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BECB7DB1D4769D800338C40 /* Main.storyboard */; };
 		2BECB7F81D47870100338C40 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECB7F71D47870100338C40 /* SecondViewController.m */; };
+		2BF11E531D51CC23007510A6 /* NibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF11E521D51CC23007510A6 /* NibViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		2BECB7DB1D4769D800338C40 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2BECB7F61D47870100338C40 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2BECB7F71D47870100338C40 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2BF11E511D51CC23007510A6 /* NibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibViewController.h; sourceTree = "<group>"; };
+		2BF11E521D51CC23007510A6 /* NibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NibViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				2B47325A1D509F5700FAE6A5 /* PopNavigationViewController.m */,
 				2B7720C61D50AA400045A8B1 /* NavgationPopAnimator.h */,
 				2B7720C71D50AA400045A8B1 /* NavgationPopAnimator.m */,
+				2BF11E511D51CC23007510A6 /* NibViewController.h */,
+				2BF11E521D51CC23007510A6 /* NibViewController.m */,
 			);
 			path = learnNavigationController;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				2BECB7F81D47870100338C40 /* SecondViewController.m in Sources */,
 				2B47325B1D509F5700FAE6A5 /* PopNavigationViewController.m in Sources */,
 				2B7720C81D50AA400045A8B1 /* NavgationPopAnimator.m in Sources */,
+				2BF11E531D51CC23007510A6 /* NibViewController.m in Sources */,
 				2BECB7C11D47634F00338C40 /* AppDelegate.m in Sources */,
 				2BECB7D51D47638A00338C40 /* RootViewController.m in Sources */,
 				2BECB7BE1D47634F00338C40 /* main.m in Sources */,
@@ -274,7 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = learnNavigationController/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,7 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = learnNavigationController/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yidian.learnNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";

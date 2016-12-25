@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B41ED021D6EE5C800FEB11E /* PickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B41ED011D6EE5C800FEB11E /* PickViewController.m */; };
 		2BFCA7D81D40BF810085F806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA7D71D40BF810085F806 /* main.m */; };
 		2BFCA7DB1D40BF810085F806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA7DA1D40BF810085F806 /* AppDelegate.m */; };
 		2BFCA7DE1D40BF810085F806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFCA7DD1D40BF810085F806 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B41ED001D6EE5C800FEB11E /* PickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickViewController.h; sourceTree = "<group>"; };
+		2B41ED011D6EE5C800FEB11E /* PickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickViewController.m; sourceTree = "<group>"; };
 		2BFCA7D31D40BF810085F806 /* DataChooser_UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataChooser_UIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFCA7D71D40BF810085F806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BFCA7D91D40BF810085F806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		2BFCA7D51D40BF810085F806 /* DataChooser_UIPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				2B41ED001D6EE5C800FEB11E /* PickViewController.h */,
+				2B41ED011D6EE5C800FEB11E /* PickViewController.m */,
 				2BFCA7DC1D40BF810085F806 /* ViewController.h */,
 				2BFCA7DD1D40BF810085F806 /* ViewController.m */,
 				2BFCA7DF1D40BF810085F806 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFCA7DE1D40BF810085F806 /* ViewController.m in Sources */,
+				2B41ED021D6EE5C800FEB11E /* PickViewController.m in Sources */,
 				2BFCA7DB1D40BF810085F806 /* AppDelegate.m in Sources */,
 				2BFCA7D81D40BF810085F806 /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				2BFCA7EC1D40BF810085F806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,26 +1,26 @@
 //
-//  ViewController.m
+//  PickViewController.m
 //  DataChooser_UIPickerView
 //
-//  Created by tao on 16/7/21.
+//  Created by tao on 16/8/25.
 //  Copyright © 2016年 tao. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "PickViewController.h"
 
-@interface ViewController ()<UIPickerViewDelegate, UIPickerViewDataSource, UIPopoverPresentationControllerDelegate>
+@interface PickViewController ()<UIPickerViewDelegate, UIPickerViewDataSource>
 {
     NSArray *areaArr;
     NSMutableArray *teamArr;
 }
 
-@property (weak, nonatomic) IBOutlet UITextField *textField;
-@property (weak, nonatomic) IBOutlet UIPickerView *pickView;
+
+@property (strong, nonatomic)  UIPickerView *pickView;
 
 @end
 
-@implementation ViewController
+@implementation PickViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,21 +32,17 @@
     [teamArr addObject:@[@"卡尔特人", @"76人", @"尼克斯", @"篮网", @"猛龙"]];
     [teamArr addObject:@[@"森林狼", @"掘金", @"爵士", @"开拓者", @"雷霆"]];
     [teamArr addObject:@[@"国王", @"太阳", @"湖人", @"快船", @"勇士"]];
-    
     self.pickView.delegate = self;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if ([segue.identifier isEqualToString:@"pop"]) {
-        PickViewController *pickVC = segue.destinationViewController;
-        pickVC.modalPresentationStyle = UIModalPresentationPopover;
-        pickVC.popoverPresentationController.delegate = self;
+- (UIPickerView *)pickView{
+    if (!_pickView) {
+        _pickView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+        [self.view addSubview:_pickView];
     }
+    return _pickView;
 }
 
-- (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller{
-    return UIModalPresentationNone;
-}
 #pragma mark - UIPickerViewDataSource
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
     return 2;
@@ -60,6 +56,10 @@
         NSInteger currentRow = [pickerView selectedRowInComponent:0];
         return [teamArr[currentRow] count];
     }
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    [self performSegueWithIdentifier:@"pop" sender:nil];
 }
 
 #pragma mark - UIPickerViewDelegate
@@ -76,7 +76,8 @@
     [pickerView reloadComponent:1];
     NSInteger areaRow = [pickerView selectedRowInComponent:0];
     NSInteger teamRow = [pickerView selectedRowInComponent:1];
-    [self.textField setText:[NSString stringWithFormat:@"%@-%@",areaArr[areaRow],teamArr[areaRow][teamRow]]];
+    [self.pickDelegate setNSString:areaArr[areaRow] secondNSString:teamArr[areaRow][teamRow]];
+    //[self.textField setText:[NSString stringWithFormat:@"%@-%@",areaArr[areaRow],teamArr[areaRow][teamRow]]];
 }
 
 @end
