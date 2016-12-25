@@ -32,6 +32,7 @@
 
 {
     //master update
+    //develop update
     //二维码滤镜
     
     CIFilter *filter=[CIFilter filterWithName:@"CIQRCodeGenerator"];
